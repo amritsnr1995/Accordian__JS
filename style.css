@@ -1,0 +1,32 @@
+.accordian__title {
+  background-color: rgb(29, 13, 100);
+  display: block;
+  color: white;
+  padding: 6px 10px;
+  width: 20%;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.accordian__Content {
+  margin-bottom: 10px;
+  background-color: rgb(191, 235, 174);
+  padding: 12px;
+  font-size: 14px;
+  text-align: justify;
+  width: 20%;
+  display: none;
+}
+
+#accordian {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
+
+.active {
+  display: block !important;
+}
